@@ -1,0 +1,217 @@
+List
+/'
+    General
+        Dodge
+        Null
+        Guard Stance
+        Move
+        Kick
+
+    Sword
+        Strike
+        Flourish
+        Parry
+
+    Brawling
+        Punch
+        Wind Up
+        Block
+        Grab   
+
+    Sheild
+        Bash
+        Parry    
+'/
+
+Fighter
+/'
+    Guard
+        Slow
+        Stance
+
+        Light Attacks and  Parrys actions do not break this stance
+        Stance Immidiatly falls off when taking damage
+        Removes 1 Stress 
+
+    Dodge
+        Fast
+        Roll Dex against attackers REF. If greater attack automaticly misses. 
+        You must move to a different space, otherwise you cannot use this maneuver. 
+        
+
+    Move/Interact
+        Slow
+        You may interact with something in the in the enviornment, change weapons, or grab something from your inventory.
+        Also pick one of the following to perform:
+            +10ft movement this turn.
+            Get up from or go down to prone.
+            Remove 1 stress.
+        
+    Kick
+        Fast
+        Your movement cannot be away from the enemy
+        Cannot be parried
+        Interuptable
+        Attack
+            Light: Roll +Dex
+                DAM: 1 + DB                     
+            Heavy: Roll +2 +Dex (Flourish or Wind Up from any weapon or brawl to perform)
+                Attack
+                DAM: 1d4 + DB
+                Oppenent Stress +1
+                Opponent Forced 5 ft back
+'/  
+
+Rogue
+/'
+    Guard
+        Slow
+        Stance
+
+        Light Attacks and  Parrys actions Do not break this stance
+        Stance Immidiatly falls off when taking damage
+        Removes 1 Stress 
+
+    Dodge
+        Fast
+        Roll Dex against attackers REF. If greater attack automaticly misses. 
+        You must move to a different space, otherwise you cannot use this maneuver. 
+        
+
+    Move/Interact
+        Slow
+        You may interact with something in the in the enviornment, change weapons, or grab something from your inventory.
+        Also pick one of the following to perform:
+            +10ft movement this turn.
+            Get up from or go down to prone.
+            Remove 1 stress.
+        
+    Stealth
+    Stance
+    All attacks and Flourishes or Move actions do not break this stance. Move is a -5 ft.
+    You hid in the background, If no enemy has seen you yet you a
+    All attacks and Flourishes  do not break this stance.
+
+'/
+
+Barbarian
+/'
+    Guard
+        Slow
+        Stance
+
+        Light Attacks and  Parrys actions Do not break this stance
+        Stance Immidiatly falls off when taking damage
+        Removes 1 Stress 
+
+    Dodge
+        Fast
+        Roll Dex against attackers REF. If greater attack automaticly misses. 
+        You must move to a different space, otherwise you cannot use this maneuver. 
+        
+
+    Move/Interact
+        Slow
+        You may interact with something in the in the enviornment, change weapons, or grab something from your inventory.
+        Also pick one of the following to perform:
+            +10ft movement this turn.
+            Get up from or go down to prone.
+            Remove 1 stress.
+        
+    RAGE
+    Stance
+    Unbreakable
+    You are raging all light attacks have a +2 on damage and all heavy attacks have +6 damage
+    You can perform all actions but are still limited to only one stance.
+    All physical damage made against you is haved.
+    
+'/
+
+Sword 
+/'
+    Strike
+        Fast
+        Attack:
+            Light: Roll +2 +Dex 
+                Interuptable
+                1d6 + DB 
+            Heavy: Roll +4 +Dex
+                +3 AP
+                3d6 + DB
+    
+    Flourish
+        Fast
+        Interuptable
+        Ready for a heavy strike.
+        
+        If the next maneuver is not a strike, cause a stress after maneuver is complete
+    
+    Parry
+        Fast 
+        Roll Dex against opponents reflex to Parry all attacks coming at you. 
+        If you fail or no attacks were made against to add a fatigue to yourself 
+        On success deal a damage equal to your light attack.           
+'/
+
+Brawling
+/'
+    Punch
+        If parryed with a weapon, oppenent deals light damage to you, on top of parry bonus.
+        Fast
+        Attack
+            Light: Roll +Dex
+                Interuptable
+                1 + DB 
+            Heavy: Roll +2 +Dex
+                +1 AP
+                Oppenent Stress +1
+                2d4 + DB
+
+    Wind Up
+        Fast
+        Interuptable
+        Wind Up for a heavy
+        If the next maneuver is not a Punch, cause a stress after maneuver is complete
+
+    Parry
+        Fast 
+        Ineffective on weapons medium or larger
+        Roll Dex against opponents reflex to Parry all attacks coming at you. 
+        If you fail or no attacks were made against to add a fatigue to yourself 
+        On success deal a damage equal to your light attack.                       
+    
+    Grab/Throw
+        fast
+        interupable
+        Grab
+        	Breaks Stance
+            Interuptable
+            Roll STR against an oponents Reflex
+            If Successful you are now grappling the opponent.
+            Their movement is 0 and can only play light attacks with short weapons or smaller, null or move.
+            If they move they must make a strength check against your fortitude, if Succeed they do not get a movement bonus but do break the grapple.
+        
+        Throw
+            Target must be already grappled
+            Make a STR check against targets fortitude
+            Your opponent is knocked prone
+
+'/
+
+Sheild
+/'
+    Bash
+    	fast
+        interupable
+        Attack
+        Light: Roll +1 +Dex
+        	Breaks Stance
+            Oppenent Stress +1
+            Opponent Forced 5 ft back
+
+    Parry
+        Fast 
+        Roll Dex against opponents Ref to Parry all attacks coming at you. 
+        If you fail or no attacks were made against to add a fatigue to yourself 
+        On success deal a damage equal to your light attack in your other hand.
+'/

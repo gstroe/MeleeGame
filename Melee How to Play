@@ -1,0 +1,91 @@
+Melee How to Play
+
+So this is a first draft of some new role playing mechanics I have been working on. Some backstory: I've like the idea of giving players options for what they can do in combat so they can be creative with the combat and spice things up. I've also really enjoy fighting games so I wanted to integrate the fight game into the RPG space. And this is what I have so far.
+
+Right now this only handles melee combat (which is why im code naming it Melee), but I do expect and already have concepts for how magic and range combat will work. I think the game will be dark souls esq in this reguard as my current concept makes Range the easiest to play, magic the second hardest, and melee the hardest to play. This document will for now only focus on the Melee.
+
+Turn order
+	The turns consist of a few phases.
+	First you determine initive. Each character rolls 1d10 + REF/5. Roll off another d10 to break ties.
+	The Phases:
+
+	1. Card Selection Phase - Select a card to play and play it face down until everyone has placed a card faced down. Also remove 1 Exhaustion Token.
+
+	2. Reveal Phase - Everyone reveals there cards. If a player reveals a fast card (Red Mana) they may choose to have it downgrade to a slow.
+
+	3. Fast Phase - Only Caracters who played fast cards (Red Mana) can. First each character can move 5ft (All characters natualy can move 5ft per turn, 1 space). This happens in order of reverse inititive (lowest first). NOTE: targets are considered to exist in both there starting and final posistions of this phase. This is because everything technicly happens at the same time here and prevents people with high inititive from running without penalty. (This doesnt quite feel right ATM).
+	Then all fast card actions happen now. This all happens at the same time. Cards with the 'interuptable' tag will not occur if another attack against them succeeds. If two interuptable abilities both succeed against each other, then both get canceled.
+
+	4. Slow phase - Only players who declared a downgrade for a fast card or those who played a slow card (Blue Mana) play this turn. This works exactly the same as the Fast Phase. Also note that if a player had a succesful attack made against them in the fast phase, it still interupts any interuptable cards in the slow phase.
+
+	And those are all the phases of combat. All cards played, except stance cards come back to your hand after you reveal them.
+
+	Also because cause all moves are simultanous if at another ability would make one maneuver invalid in the same phase. The best example of this is if one breaks a grapple and is thrown at the same time. It this case because the grapple break makes one no longer grappled, and because grappled is required to be thrown, then the grapple break no longer makes the throw valid. Now if the grapple break is interupted by another ability then and the throw (which is generally uninteruptable) is still valid and will happen.
+
+Some Key Words
+	There are a few key words used in this document and the cards. Below are their descriptions
+
+	Maneuvers - The cards you play and their resulting actions.
+
+	Exhaustion Token - These can be given out by cards you or your opponents cards. At the beginning of your Card Selection Phase. If you have any Exhaustion Tokens, remove one. Your move for this turn reguardless of what you play will be considered slow.
+
+	Stress token - Like Exhaustion these can be given to your or your opponents by the maneuvers you perform and can be removed only by other maneuvers. When one has a Stress token, nothing really changes, but any time you receive a second  stress token, it automaticly converts to a Exhaustion token. (I have considered removing this and instead only having exhaustion tokens and say making people have a natural defence from exhaustion of say one token. Any more and the effect goes into play, the main problem is that is exhustion is sometimes too strong of a penelty and I really wanted people to gain something from playing a Null Maneuver. Also with a tolerance off one exhaustion it might be to easy to avoid)
+
+	Interuptable - Maneuvers with this Key Word have its effects completely nullified if an attack was successfully made against you.
+
+	Light Attack/Heavy Attack - Most attack cards have a light and heavy mode. The light is typicly low damage and does not have many extra effects attached to the attack. Heavys on the otherhand, deal more damage and will generally have additional effects attached. Attack cards always convert to the heavy variant if an approprate card was played the previous turn (EX: Flourish for Swords, Wind Up for Brawling).
+
+	Stances - These are special Maneuvers that stay on the field after you play them as a continous effect. Currently as of wrighting this, only the Guard Stance card exists.
+
+	Break Stance - This key word indicates that an opponents stance is broken if the Maneuver successfully completes.
+
+	Grappled - This is a condition placed on a character. When one is grappled, their movement is forced to always be 0 and can only play light attacks with short weapons or smaller, null or move.
+    If one places the move maneuver they must make a strength check against your fortitude, if one succeeds they do not get a movement bonus from their move maneuver but do break the grapple. If they attack land a successful blow, then the one holding the grappled character must make a Constitution check subtracted by the attacking characters Damage Bonus times 5. If successful the grapple is maintained, otherwise it is broken.
+
+    Stunned - This is another condition the basicly skips the player for the turn. The only way to do this to a player at the moment is to force them to move into a wall or hard object with an ability like heavy kick or with the Critical hit that forces their character to move in some direction.
+
+    Prone - Another Condition. In this state attacks made against you are at a +25% and your Reflex is reduced to 0. A player can be placed prone by the throw maneuver.
+        
+Dice System,
+	The game use a d100 system for ability checks and several other dice for dealing damage. In d100 you have a skill listed in a percentage. You add or subtract any modifiers given to your ability check then roll. If you are under or equal to the skill after the modifiers are considered, then the skill check was successful. If you are over then you fail.
+
+	Critical Hits - Currently critical hits are at their most basic phase. There are no critical hits really, but (and this is straight out of the age system) when you roll succesfully and have a pair in your d100 (EX: skill of 60 and rolling a 55, 44, 33 etc...) you get a certain number of stunt points to spend. I do not have a stunt list yet as I am focusing on the primary mechanics of the game. So, right now "criticals" work as follows: if you critical with 55 or higher, you can disarm or move your opponent 5ft. If it is less then 55 then you can only move them 5ft. You may choose move with the opponent here.
+
+	Critical Failure - at the moment there is no crit failures. But a 99 will always fail reguardless of skill.
+
+	Attacks - At the moment all attacks are DEX based to hit and most receive a damage bonus based on strength. You simple roll your dex plus or minus any modifiers
+
+Stats
+	There are only a few stats so far. There will be a few more in the future to handle the role playing aspect but since this very different in reguards to combat, only the stats affecting combat are involved. Below is what the skills mee and how they are calculated for a starting character.
+
+	Raw_Strength - This is the raw strength value from which strength focused stats are based on. Calcuated from 4d6 drop the lowest.
+
+	Raw_Dexerity - This is the raw Dexerity value from which Dexerity focused stats are based on. Calcuated from 4d6 drop the lowest.
+
+	Raw_Constitution - This is the raw Constitution value from which Constitution focused stats are based on. Calcuated from 4d6 drop the lowest.
+
+	Raw_Focus - This is the raw Focus value from which Focus based stats are based on. Calcuated from 4d6 drop the lowest.
+
+	STR - Your actual strength ability. Calculated from Raw_Strength * 5. It is the target number you need to roll under for ability tests.
+
+	DEX - Your actual Dexerity ability. Calculated from Raw_Dexerity * 5. It is the target number you need to roll under for ability tests.
+
+	CON - Your actual Constitution ability. Calculated from Raw_Constitution * 5. It is the target number you need to roll under for ability tests.
+
+	FOC - Your actual Focus ability. Calculated from Raw_Focus * 5. It is the target number you need to roll under for ability tests.
+
+	REF - This is your reflex. Best way to understand this is that this is your defensive DEX based ability. This is typicly subracted against some DEX based ablility an opponent makes against you. The calculation for this is:
+	(ROUND_DOWN((Raw_Dexerity - 10)/2) + ROUND_DOWN((Raw_Focus - 10)/2)) * 5. Note ROUND_DOWN takes anything less then 0 and makes it zero. More basicly do DnD conversion of DEX and FOC, then add the two tog
+
+	FOR - This is your fortitude. Best way to understand this is that this is your defensive STR based ability. This is typicly subracted against some STR based ablility an opponent makes against you. The calculation for this is:
+	(ROUND_DOWN((Raw_Strength - 10)/2) + ROUND_DOWN((Raw_Constitution - 10)/2)) * 5.
+
+	HP - Starting hit points are 5d10 or 28 + FOR.
+
+	mDEF - Melee defence, normally always 0 but currently a sheild and guard stance can change this. (I'm not sure if armor will change this in the future as I plan on having armor do damage mitigation with armor penetration, I might have it do both though for the higher level armor)
+
+	rDEF - Range Defence, normally always 0 but currently a sheild and guard stance can change this. (I'm not sure if armor will change this in the future as I plan on having armor do damage mitigation with armor penetration, I might have it do both though for the higher level armor)
+
+	DB - Damage Bonus added to most attacks. Calculated by: ROUND_DOWN((Raw_Strength - 10)/2)
+
+	INIT - Inititive, REX / 5
