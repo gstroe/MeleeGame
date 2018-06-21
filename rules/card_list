@@ -1,29 +1,4 @@
-List
-/'
-    General
-        Dodge
-        Null
-        Guard Stance
-        Move
-        Kick
-
-    Sword
-        Strike
-        Flourish
-        Parry
-
-    Brawling
-        Punch
-        Wind Up
-        Block
-        Grab   
-
-    Sheild
-        Bash
-        Parry    
-'/
-
-Fighter
+General
 /'
     Guard
         Slow
@@ -44,75 +19,40 @@ Fighter
             +10ft movement this turn.
             Get up from or go down to prone.
             Remove 1 stress.
-        
+
+'/
+
+
+Fighter
+/'
     Kick
         Fast
         Your movement cannot be away from the enemy
         Cannot be parried
         Interuptable
         Attack
-            Light: Roll +Dex
+            Light: Roll 
                 DAM: 1 + DB                     
-            Heavy: Roll +10% +Dex (Flourish or Wind Up from any weapon or brawl to perform)
+            Heavy: Roll +10%  (Flourish or Wind Up from any weapon or brawl to perform)
                 Attack
-                DAM: 1d4 + DB
-                Oppenent Stress +1
+                DAM: 2d6 + DB
+                Opponent Stress +1
                 Opponent Forced 5 ft back
 '/  
 
 Rogue
-/'
-    Guard
-        Slow
-        Stance
-        Light Attacks and  Parrys actions Do not break this stance
-        Removes 1 Stress 
-
-    Dodge
-        Fast
-        Roll Dex against attackers REF. If greater attack automaticly misses. 
-        You must move to a different space, otherwise you cannot use this maneuver. 
-        
-
-    Move/Interact
-        Slow
-        You may interact with something in the in the enviornment, change weapons, or grab something from your inventory.
-        Also pick one of the following to perform:
-            +10ft movement this turn.
-            Get up from or go down to prone.
-            Remove 1 stress.
-        
+/'      
     Sneek
         Slow
         Stance
         Flourishes and Move actions do not break this stance. The Move action is at -5 ft.
         You attempt to gain the Stealthed status from any enemies around you.
-        If no enemy has seen you yet you automaticly succeed at this. If no enemies are focusing durring combat on you then you may try to succeed a Focus test against Reflex for any and every enemy that can see you. Any roll you succeed makes you Stealthed against them.
-        Advantage on attacks and double damage on any hit made to targets that you are Stealthed against in this stance (they still break the stance).
+        If no enemy has seen you yet you automaticly succeed at this. If no enemies are focusing on you durring combat  then you may try to succeed a Focus test against Reflex the reflex of each enemy that can see you (individually). Any roll you succeed makes you Stealthed against them.
+        Advantage on attacks and double damage on any hit made to targets that you are Stealthed against in this stance (they still break the stance). Note that enemies aware of your presence can make others aware of it.
 '/
 
 Barbarian
-/'
-    Guard
-        Slow
-        Stance
-        Light Attacks and  Parrys actions Do not break this stance
-        Removes 1 Stress 
-
-    Dodge
-        Fast
-        Roll Dex against attackers REF. If greater attack automaticly misses. 
-        You must move to a different space, otherwise you cannot use this maneuver. 
-        
-
-    Move/Interact
-        Slow
-        You may interact with something in the in the enviornment, change weapons, or grab something from your inventory.
-        Also pick one of the following to perform:
-            +10ft movement this turn.
-            Get up from or go down to prone.
-            Remove 1 stress.
-        
+/'      
     RAGE
         Slow
         Burn 1 (short rest)
@@ -121,20 +61,20 @@ Barbarian
         You are raging. all light attacks have a +2 on damage and all heavy attacks have +6 damage all physical damage made against you is haved and does not break this stance.
         You can perform all actions but can no longer go into other stances.
         This stance can only be remove if you have 2 turns in a row where you do not attack or take damage, or by your choice in the beginning of your turn like any other stance.
-        When this stance is remove you take +1 stress.
+        When this stance is removed you take +1 stress.
 '/
 
-Sword 
+Shord Sword 
 /'
     Strike
         Fast
         Attack:
-            Light: Roll +2 +Dex 
+            Light: Roll +10%  
                 Interuptable
-                1d6 + DB 
-            Heavy: Roll +4 +Dex
+                1d8 + DB 
+            Heavy: Roll +20% 
                 +3 AP
-                3d6 + DB
+                3d8 + DB
     
     Flourish
         Fast
@@ -156,18 +96,18 @@ Brawling
         If parryed with a weapon, oppenent deals light damage to you, on top of parry bonus.
         Fast
         Attack
-            Light: Roll +Dex
+            Light: Roll 
                 Interuptable
                 1 + DB 
-            Heavy: Roll +2 +Dex
+            Heavy: Roll +10% 
                 +1 AP
                 Oppenent Stress +1
                 2d4 + DB
 
-    Wind Up
+    Flourish
         Fast
         Interuptable
-        Wind Up for a heavy
+        Flourish for a heavy
         If the next maneuver is not a Punch, cause a stress after maneuver is complete
 
     Parry
@@ -178,7 +118,7 @@ Brawling
         On success deal a damage equal to your light attack.                       
     
     Grab/Throw
-        fast
+        Fast
         interupable
         Grab
         	Breaks Stance
@@ -201,9 +141,8 @@ Sheild
     	fast
         interupable
         Attack
-        Light: Roll +1 +Dex
+        Light: Roll +20% 
         	Breaks Stance
-            Oppenent Stress +1
             Opponent Forced 5 ft back
 
     Parry
