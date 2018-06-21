@@ -28,9 +28,7 @@ Fighter
     Guard
         Slow
         Stance
-
         Light Attacks and  Parrys actions do not break this stance
-        Stance Immidiatly falls off when taking damage
         Removes 1 Stress 
 
     Dodge
@@ -55,7 +53,7 @@ Fighter
         Attack
             Light: Roll +Dex
                 DAM: 1 + DB                     
-            Heavy: Roll +2 +Dex (Flourish or Wind Up from any weapon or brawl to perform)
+            Heavy: Roll +10% +Dex (Flourish or Wind Up from any weapon or brawl to perform)
                 Attack
                 DAM: 1d4 + DB
                 Oppenent Stress +1
@@ -67,9 +65,7 @@ Rogue
     Guard
         Slow
         Stance
-
         Light Attacks and  Parrys actions Do not break this stance
-        Stance Immidiatly falls off when taking damage
         Removes 1 Stress 
 
     Dodge
@@ -86,12 +82,13 @@ Rogue
             Get up from or go down to prone.
             Remove 1 stress.
         
-    Stealth
-    Stance
-    All attacks and Flourishes or Move actions do not break this stance. Move is a -5 ft.
-    You hid in the background, If no enemy has seen you yet you a
-    All attacks and Flourishes  do not break this stance.
-
+    Sneek
+        Slow
+        Stance
+        Flourishes and Move actions do not break this stance. The Move action is at -5 ft.
+        You attempt to gain the Stealthed status from any enemies around you.
+        If no enemy has seen you yet you automaticly succeed at this. If no enemies are focusing durring combat on you then you may try to succeed a Focus test against Reflex for any and every enemy that can see you. Any roll you succeed makes you Stealthed against them.
+        Advantage on attacks and double damage on any hit made to targets that you are Stealthed against in this stance (they still break the stance).
 '/
 
 Barbarian
@@ -99,9 +96,7 @@ Barbarian
     Guard
         Slow
         Stance
-
         Light Attacks and  Parrys actions Do not break this stance
-        Stance Immidiatly falls off when taking damage
         Removes 1 Stress 
 
     Dodge
@@ -119,12 +114,14 @@ Barbarian
             Remove 1 stress.
         
     RAGE
-    Stance
-    Unbreakable
-    You are raging all light attacks have a +2 on damage and all heavy attacks have +6 damage
-    You can perform all actions but are still limited to only one stance.
-    All physical damage made against you is haved.
-    
+        Slow
+        Burn 1 (short rest)
+        Stance
+        Unbreakable
+        You are raging. all light attacks have a +2 on damage and all heavy attacks have +6 damage all physical damage made against you is haved and does not break this stance.
+        You can perform all actions but can no longer go into other stances.
+        This stance can only be remove if you have 2 turns in a row where you do not attack or take damage, or by your choice in the beginning of your turn like any other stance.
+        When this stance is remove you take +1 stress.
 '/
 
 Sword 

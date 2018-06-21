@@ -35,9 +35,13 @@ Some Key Words
 
 	Light Attack/Heavy Attack - Most attack cards have a light and heavy mode. The light is typicly low damage and does not have many extra effects attached to the attack. Heavys on the otherhand, deal more damage and will generally have additional effects attached. Attack cards always convert to the heavy variant if an approprate card was played the previous turn (EX: Flourish for Swords, Wind Up for Brawling).
 
-	Stances - These are special Maneuvers that stay on the field after you play them as a continous effect. Currently as of wrighting this, only the Guard Stance card exists.
+	Stances - These are special Maneuvers that stay on the field after you play them as a continous effect. Stances are removed as soon as you take damage or make an manuvear that breaks the stance (most stances list which moves do not mean all other manuvers do).
 
-	Break Stance - This key word indicates that an opponents stance is broken if the Maneuver successfully completes.
+	Breaks Stance - This key word indicates that an opponents stance is broken if the Maneuver successfully completes.
+
+	Unbreakable - Stances with this Key word can not be broken by manuvers with Breaks Stance.
+
+	Burn X (long/short rest)- This list the number of uses (X) before the card is no longer useable until the specified rest.
 
 	Grappled - This is a condition placed on a character. When one is grappled, their movement is forced to always be 0 and can only play light attacks with short weapons or smaller, null or move.
     If one places the move maneuver they must make a strength check against your fortitude, if one succeeds they do not get a movement bonus from their move maneuver but do break the grapple. If they attack land a successful blow, then the one holding the grappled character must make a Constitution check subtracted by the attacking characters Damage Bonus times 5. If successful the grapple is maintained, otherwise it is broken.
@@ -45,6 +49,14 @@ Some Key Words
     Stunned - This is another condition the basicly skips the player for the turn. The only way to do this to a player at the moment is to force them to move into a wall or hard object with an ability like heavy kick or with the Critical hit that forces their character to move in some direction.
 
     Prone - Another Condition. In this state attacks made against you are at a +25% and your Reflex is reduced to 0. A player can be placed prone by the throw maneuver.
+
+    Stealthed -  A condition that you have against another person. All players may attemp to be stealthed from a enemy but only a rogue can do it while in combat with the sneek stance. You cannot gain stealthed when enemies are aware of your presence. If you go into stealth your move action is reduce by 5ft and your movement is quiet, enemies need to make a Focus Check against your Reflex to hear you or to see you if they are distracted. If the enemy is not distracted and they see you then your automaticly fail and lost stealthed. If they are in combat then they cannot hear your movement at all and are considered distracted need to make a Focus Check against your Reflex to be aware of your presence. 
+
+    Advantage - Roll 2d10s for d100 and use the result of your choice.
+
+    Disadvatage - Roll 2d10s for 100 and use the worst failure if there is a failure or the lowest success if both suceed. 
+
+
         
 Dice System,
 	The game use a d100 system for ability checks and several other dice for dealing damage. In d100 you have a skill listed in a percentage. You add or subtract any modifiers given to your ability check then roll. If you are under or equal to the skill after the modifiers are considered, then the skill check was successful. If you are over then you fail.
