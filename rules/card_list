@@ -28,16 +28,9 @@ Fighter
     Kick
         Fast
         Your movement cannot be away from the enemy
-        Cannot be parried
         Interuptable
-        Attack
-            Light: Roll 
-                DAM: 1 + DB                     
-            Heavy: Roll +10%  (Flourish or Wind Up from any weapon or brawl to perform)
-                Attack
-                DAM: 2d6 + DB
-                Opponent Stress +1
-                Opponent Forced 5 ft back
+        Can only be down if you Flourished Last turn.
+        Make a Dex Check against
 '/  
 
 Rogue
@@ -47,7 +40,6 @@ Rogue
         Stance
         Flourishes and Move actions do not break this stance. The Move action is at -5 ft.
         You attempt to gain the Stealthed status from any enemies around you.
-        If no enemy has seen you yet you automaticly succeed at this. If no enemies are focusing on you durring combat  then you may try to succeed a Focus test against Reflex the reflex of each enemy that can see you (individually). Any roll you succeed makes you Stealthed against them.
         Advantage on attacks and double damage on any hit made to targets that you are Stealthed against in this stance (they still break the stance). Note that enemies aware of your presence can make others aware of it.
 '/
 
@@ -65,14 +57,15 @@ Barbarian
 '/
 
 Shord Sword 
+Guard DEF +1
 /'
     Strike
         Fast
         Attack:
-            Light: Roll +10%  
+            Light: Roll +2 
                 Interuptable
                 1d8 + DB 
-            Heavy: Roll +20% 
+            Heavy: Roll +4 
                 +3 AP
                 3d8 + DB
     
@@ -90,6 +83,32 @@ Shord Sword
         On success deal a damage equal to your light attack.           
 '/
 
+Dagger
+Guard DEF 0
+/'
+    Strike
+        Fast
+        Attack:
+            Light: Roll +1 
+                Interuptable
+                1d6 + DB 
+            Heavy: Roll +2 
+                +3 AP
+                3d6 + DB
+    
+    Flourish
+        Fast
+        Interuptable
+        Ready for a heavy strike.
+        
+        If the next maneuver is not a strike, cause a stress after maneuver is complete
+    
+    Parry
+        Fast 
+        Roll Dex against opponents reflex to Parry all attacks coming at you. 
+        If you fail or no attacks were made against to add a fatigue to yourself 
+;'/
+
 Brawling
 /'
     Punch
@@ -99,7 +118,7 @@ Brawling
             Light: Roll 
                 Interuptable
                 1 + DB 
-            Heavy: Roll +10% 
+            Heavy: Roll +2
                 +1 AP
                 Oppenent Stress +1
                 2d4 + DB
@@ -136,12 +155,13 @@ Brawling
 '/
 
 Sheild
+DEF +2
+Guard DEF +5
 /'
     Bash
-    	fast
-        interupable
+    	Fast
         Attack
-        Light: Roll +20% 
+        Light: Roll +4
         	Breaks Stance
             Opponent Forced 5 ft back
 
