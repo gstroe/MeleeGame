@@ -10,6 +10,12 @@ General
         Fast
         Roll Dex against attackers REF. If greater attack automaticly misses. 
         You must move to a different space, otherwise you cannot use this maneuver. 
+
+    Flourish
+        Fast
+        Interuptable
+        Flourish your weapon for a heavy strike. You must specifiy the weapon when you reveal if you have multiple.
+        If the next maneuver is not a attack with that weapon, gain +1 Stress
         
 
     Move/Interact
@@ -25,12 +31,15 @@ General
 
 Fighter
 /'
-    Kick
+    Kick Back
         Fast
         Your movement cannot be away from the enemy
         Interuptable
-        Can only be down if you Flourished Last turn.
-        Make a Dex Check against
+        Can only be done if you Flourish last turn.
+        Make a Dex Check against targets Reflex. If you succeed:
+        Break Stance
+        Oppenent Stress +1
+        Oppenent Forced Movement 5ft away from you.
 '/  
 
 Rogue
@@ -47,7 +56,7 @@ Barbarian
 /'      
     RAGE
         Slow
-        Burn 1 (short rest)
+        Burn 2 (short rest)
         Stance
         Unbreakable
         You are raging. all light attacks have a +2 on damage and all heavy attacks have +6 damage all physical damage made against you is haved and does not break this stance.
@@ -57,61 +66,177 @@ Barbarian
 '/
 
 Shord Sword 
+Medium
 Guard DEF +1
 /'
-    Strike
+    Slash
         Fast
         Attack:
             Light: Roll +2 
                 Interuptable
                 1d8 + DB 
             Heavy: Roll +4 
-                +3 AP
+                Sunder 3
                 3d8 + DB
-    
-    Flourish
-        Fast
-        Interuptable
-        Ready for a heavy strike.
-        
-        If the next maneuver is not a strike, cause a stress after maneuver is complete
     
     Parry
         Fast 
         Roll Dex against opponents reflex to Parry all attacks coming at you. 
         If you fail or no attacks were made against to add a fatigue to yourself 
-        On success deal a damage equal to your light attack.           
+        On success you may make a light attack with either hand, It automaticly succeeds. Or you may attempt to grab if your other hand is free,           
 '/
 
 Dagger
+Small
 Guard DEF 0
 /'
-    Strike
+    Stab
         Fast
         Attack:
             Light: Roll +1 
                 Interuptable
                 1d6 + DB 
             Heavy: Roll +2 
-                +3 AP
+                Sunder: 5 
                 3d6 + DB
     
-    Flourish
+
+    Parry
+        Fast 
+        Roll Dex against opponents reflex to Parry all attacks coming at you. 
+        If you fail or no attacks were made against to add a fatigue to yourself.
+        On success you may make a light attack with you other hand or attempt to use Grab if your other hand is free.
+'/
+Hand Axe
+Medium
+Guard DEF 0
+/'
+    Slash
         Fast
-        Interuptable
-        Ready for a heavy strike.
-        
-        If the next maneuver is not a strike, cause a stress after maneuver is complete
+        Attack:
+            Light: Roll +1 
+                Interuptable
+                1d8 + DB 
+            Heavy: Roll +3 
+                Sunder: 5
+                3d8 + DB
     
     Parry
         Fast 
         Roll Dex against opponents reflex to Parry all attacks coming at you. 
-        If you fail or no attacks were made against to add a fatigue to yourself 
-;'/
+        If you fail or no attacks were made against to add a fatigue to yourself.
+        On success you may make a light attack with you other hand.
+'/
+
+Light Hammer
+Medium
+Guard DEF 0
+/'
+    Slash
+        Fast
+        Attack:
+            Light: Roll +1 
+                Interuptable
+                Sunder: 1
+                1d6 + DB 
+            Heavy: Roll +2 
+                Sunder: 7
+                3d6 + DB
+    
+    Parry
+        Fast 
+        Roll Dex against opponents reflex to Parry all attacks coming at you. 
+        If you fail or no attacks were made against to add a fatigue to yourself.
+        On success you may make a light attack with you other hand.
+'/
+
+Long Sword (One Hand)
+Large
+Guard DEF +1
+/'
+    Slash
+        Fast
+        Attack:
+            Light: Roll +2 
+                Interuptable
+                1d10 + DB 
+            Heavy: Roll +5 
+                Sunder: 3
+                3d10 + DB
+    
+    Parry
+        Fast 
+        Roll Dex against opponents reflex to Parry all attacks coming at you. 
+        If you fail or no attacks were made against to add a fatigue to yourself.
+        On success you may make a light attack with this weapon. It automaticly succeeds. 
+'/
+
+Long Sword (Two Hand)
+Large
+Guard DEF +2
+/'
+    Slash
+        Fast
+        Attack:
+            Light: Roll +2 
+                Interuptable
+                1d12 + DB 
+            Heavy: Roll +5 
+                Sunder: 3
+                3d12 + DB
+    
+    Parry
+        Fast 
+        Roll Dex against opponents reflex to Parry all attacks coming at you. 
+        If you fail or no attacks were made against to add a fatigue to yourself.
+        On success you may make a light attack with this weapon. It automaticly succeeds. Or you may attempt to perform the Grab maneuver.
+'/
+
+Battle Axe (One Hand)
+Large
+Guard DEF +1
+/'
+    Slash
+        Fast
+        Attack:
+            Light: Roll +2 
+                Interuptable
+                1d12 + DB 
+            Heavy: Roll +5 
+                Sunder: 3
+                3d12 + DB
+    
+    Parry
+        Fast 
+        Roll Dex against opponents reflex to Parry all attacks coming at you. 
+        If you fail or no attacks were made against to add a fatigue to yourself.
+        On success you may make a light attack with this weapon. It automaticly succeeds. 
+'/
+
+Battle Axe (Two Hand)
+Large
+Guard DEF +2
+/'
+    Slash
+        Fast
+        Attack:
+            Light: Roll +2 
+                Interuptable
+                1d12 + DB 
+            Heavy: Roll +5 
+                Sunder: 3
+                3d12 + DB
+    
+    Parry
+        Fast 
+        Roll Dex against opponents reflex to Parry all attacks coming at you. 
+        If you fail or no attacks were made against to add a fatigue to yourself.
+        On success you may make a light attack with this weapon. It automaticly succeeds. Or you may attempt to perform the Grab maneuver.
+'/
 
 Brawling
 /'
-    Punch
+    Bash
         If parryed with a weapon, oppenent deals light damage to you, on top of parry bonus.
         Fast
         Attack
@@ -119,22 +244,16 @@ Brawling
                 Interuptable
                 1 + DB 
             Heavy: Roll +2
-                +1 AP
+                Sunder: 1
                 Oppenent Stress +1
                 2d4 + DB
-
-    Flourish
-        Fast
-        Interuptable
-        Flourish for a heavy
-        If the next maneuver is not a Punch, cause a stress after maneuver is complete
 
     Parry
         Fast 
         Ineffective on weapons medium or larger
         Roll Dex against opponents reflex to Parry all attacks coming at you. 
         If you fail or no attacks were made against to add a fatigue to yourself 
-        On success deal a damage equal to your light attack.                       
+        On success you may make a light attack with either hand, It automaticly succeeds. Or you may attempt to perform the Grab maneuver.                
     
     Grab/Throw
         Fast
@@ -156,18 +275,32 @@ Brawling
 
 Sheild
 DEF +2
-Guard DEF +5
+Guard DEF +4 (Do not get weapon bonus)
 /'
     Bash
     	Fast
         Attack
         Light: Roll +4
         	Breaks Stance
-            Opponent Forced 5 ft back
+            Opponent Stress +1
+            Opponent Movement Forced 5 ft back
 
     Parry
         Fast 
         Roll Dex against opponents Ref to Parry all attacks coming at you. 
         If you fail or no attacks were made against to add a fatigue to yourself 
-        On success deal a damage equal to your light attack in your other hand.
+        On success you may make a light attack with you other hand, It automaticly succeeds.
 '/
+"
+attack with this hand
+attack other hand
+attack with ethier
+damage with this hand
+damage with ethier hand
+damage with opposite
+damage with this
+... or grab
++1 fatigue
++1 stress
+Force Move
+"
