@@ -31,7 +31,7 @@ Some Key Words
 
 	Stress token - Like Exhaustion these can be given to your or your opponents by the maneuvers you perform and can be removed only by other maneuvers. When one has a Stress token, nothing really changes, but any time you receive a second  stress token, it automaticly converts to a Exhaustion token. (I have considered removing this and instead only having exhaustion tokens and say making people have a natural defence from exhaustion of say one token. Any more and the effect goes into play, the main problem is that is exhustion is sometimes too strong of a penelty and I really wanted people to gain something from playing a Null Maneuver. Also with a tolerance off one exhaustion it might be to easy to avoid)
 
-	Interuptable - Maneuvers with this Key Word have its effects completely nullified if an attack was successfully made against you.
+	Interuptable - Maneuvers with this Key Word have its effects completely nullified if an attack was successfully made against you. Two successful interuptable attacks cancel each other out
 
 	Light Attack/Heavy Attack - Most attack cards have a light and heavy mode. The light is typicly low damage and does not have many extra effects attached to the attack. Heavys on the otherhand, deal more damage and will generally have additional effects attached. Attack cards always convert to the heavy variant if an approprate card was played the previous turn (EX: Flourish for Swords, Wind Up for Brawling).
 
@@ -41,7 +41,7 @@ Some Key Words
 
 	Unbreakable - Stances with this Key word can not be broken by manuvers with Breaks Stance.
 
-	Burn X (long/short rest)- This list the number of uses (X) before the card is no longer useable until the specified rest.
+	Burn X (long/short)- This list the number of uses (X) before the card is no longer useable until the specified rest.
 
 	Grappled - This is a condition placed on a character. When one is grappled, their movement is forced to always be 0 and can only play light attacks with short weapons or smaller, null or move.
     If one places the move maneuver they must make a strength check against your fortitude, if one succeeds they do not get a movement bonus from their move maneuver but do break the grapple. If they attack land a successful blow, then the one holding the grappled character must make a Constitution check subtracted by the attacking characters Damage Bonus times 5. If successful the grapple is maintained, otherwise it is broken.
@@ -101,3 +101,49 @@ Stats
 	DB - Damage Bonus added to most attacks. Calculated by: ROUND_DOWN((Raw_Strength - 10)/2)
 
 	INIT - Inititive, REX / 5
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! REDONE DOWN BELLOW !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Criticals
+	Two other types of successes
+		20 - Critical Success. This always hits (for an attack roll). Also roll 1d8 and gain that many crit points. These points can be expended immediatly or saved for later. If out of combat for more then 30 seconds then these points go away.
+
+		19 - Overwhelming Success - Still need to make the hit. Roll 1d6 and gain that many crit points. These points can be expended immediatly or saved for later. If out of combat for more then 30 seconds then these points go away./
+
+	The crit point table
+		X	Deal X Sunder Damage (Requires Heavy)
+		2	Move Character 5ft
+		3	Give a Character Stress 
+		4	Blind
+		4	Exhausted state
+		5	Disarm
+		5	Cleave 2 (have to make the attack roll)
+		6	Ignore armor
+		6	Extra attack
+		7	Cleave 3 (have to make the attack roll)
+		8	Double damage
+		10	Garrentied extra attack
+
+
+
+
+Characters
+	
+	Fighter level 1
+		As a fighter you have trained in the ability to use your whole body in a fight so you gain the Kick Back maneuver. This is an action that has you roll Dexterity against an opponents reflex or Strength against an opponents Fortitude (your choice). This Kick Back can be Dodged by an opponent.
+
+		In addition you have the ability to quickly recover from the strain of battle. At the beginning of the turn  after already handling exhaustion state you can activate your Second Wind. When you do you are unable to be effected by exhaustion this turn and you remove 1 stress.
+
+	Barbarian Level 1
+		As a barbarian your are fueled by the anger within you and gain the Rage Stance. Not this has Burn 2 (Long) which means that you have 2 uses before you need to perform a long rest to reset it. While in rage stance your light attacks deal +1 damage and your damage bonus on a heavy attack is doubled. Also all physical damage made against you is halved rounded up. This can stack with armor. This stance is unbreakable, and will only end if you decide to end it at the beginning of the turn or if you have not been dealt damage to or attacked for two turns in a row. When this stand does end, you gain +1 stress.
+
+		Also your body is hard and has learned to naturally absorb the damage from an opponents weapons. If you are not wearing armor, your defense is equal to your fortitude. Also when in Guard Stance you may substitute your reflex for your fortitude.
+
+
+	Rogue Level 1
+		You are an expert in the art of moving subtly. You now have the Sneak Stance maneuver. When you enter this stance you attempt to gain the Stealthed status from any enemies around you. Flourishes and Move actions do not break this stance. The Move action is at -5 ft. While in this stance your attacks have advantage (they still break the stance). 
+
+		You master the art of hitting enemies where it hurts, you know how to expose a weakness. Whenever you gain advantage on an attack you can choose to forgo the advantage, and gain bonus damage if the attack hits. For light attacks 1d6 for damage, and for heavies gain 1d6 multiplied by your dexterity for damage. The damage dice get larger at higher levels.
