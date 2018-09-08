@@ -48,7 +48,7 @@ Some Key Words
 
     Stunned - This is another condition the basicly skips the player for the turn. The only way to do this to a player at the moment is to force them to move into a wall or hard object with an ability like heavy kick or with the Critical hit that forces their character to move in some direction.
 
-    Prone - Another Condition. In this state attacks made against you are at a +25% and your Reflex is reduced to 0. A player can be placed prone by the throw maneuver.
+    Prone - Another Condition. In this state melee attacks made against you are at a +5 and your Reflex is reduced to 0. A player can be placed prone by the throw maneuver.
 
     Stealthed -  A condition that you have against another person. All players may attemp to be stealthed from a enemy but only a rogue can do it while in combat with the sneek stance. You cannot gain stealthed when enemies are aware of your presence. If you go into stealth your move action is reduce by 5ft and your movement is quiet, enemies need to make a Focus Check against your Reflex to hear you or to see you if they are distracted. If the enemy is not distracted and they see you then your automaticly fail and lost stealthed. If they are in combat then they cannot hear your movement at all and are considered distracted need to make a Focus Check against your Reflex to be aware of your presence. 
 
@@ -67,40 +67,8 @@ Dice System,
 
 	Attacks - At the moment all attacks are DEX based to hit and most receive a damage bonus based on strength. You simple roll your dex plus or minus any modifiers
 
-Stats
-	There are only a few stats so far. There will be a few more in the future to handle the role playing aspect but since this very different in reguards to combat, only the stats affecting combat are involved. Below is what the skills mee and how they are calculated for a starting character.
 
-	Raw_Strength - This is the raw strength value from which strength focused stats are based on. Calcuated from 4d6 drop the lowest.
-
-	Raw_Dexerity - This is the raw Dexerity value from which Dexerity focused stats are based on. Calcuated from 4d6 drop the lowest.
-
-	Raw_Constitution - This is the raw Constitution value from which Constitution focused stats are based on. Calcuated from 4d6 drop the lowest.
-
-	Raw_Focus - This is the raw Focus value from which Focus based stats are based on. Calcuated from 4d6 drop the lowest.
-
-	STR - Your actual strength ability. Calculated from Raw_Strength * 5. It is the target number you need to roll under for ability tests.
-
-	DEX - Your actual Dexerity ability. Calculated from Raw_Dexerity * 5. It is the target number you need to roll under for ability tests.
-
-	CON - Your actual Constitution ability. Calculated from Raw_Constitution * 5. It is the target number you need to roll under for ability tests.
-
-	FOC - Your actual Focus ability. Calculated from Raw_Focus * 5. It is the target number you need to roll under for ability tests.
-
-	REF - This is your reflex. Best way to understand this is that this is your defensive DEX based ability. This is typicly subracted against some DEX based ablility an opponent makes against you. The calculation for this is:
-	(ROUND_DOWN((Raw_Dexerity - 10)/2) + ROUND_DOWN((Raw_Focus - 10)/2)) * 5. Note ROUND_DOWN takes anything less then 0 and makes it zero. More basicly do DnD conversion of DEX and FOC, then add the two tog
-
-	FOR - This is your fortitude. Best way to understand this is that this is your defensive STR based ability. This is typicly subracted against some STR based ablility an opponent makes against you. The calculation for this is:
-	(ROUND_DOWN((Raw_Strength - 10)/2) + ROUND_DOWN((Raw_Constitution - 10)/2)) * 5.
-
-	HP - Starting hit points are 5d10 or 28 + FOR.
-
-	mDEF - Melee defence, normally always 0 but currently a sheild and guard stance can change this. (I'm not sure if armor will change this in the future as I plan on having armor do damage mitigation with armor penetration, I might have it do both though for the higher level armor)
-
-	rDEF - Range Defence, normally always 0 but currently a sheild and guard stance can change this. (I'm not sure if armor will change this in the future as I plan on having armor do damage mitigation with armor penetration, I might have it do both though for the higher level armor)
-
-	DB - Damage Bonus added to most attacks. Calculated by: ROUND_DOWN((Raw_Strength - 10)/2)
-
-	INIT - Inititive, REX / 5
+	
 
 
 
@@ -111,19 +79,21 @@ Criticals
 	Two other types of successes
 		20 - Critical Success. This always hits (for an attack roll). Also roll 1d8 and gain that many crit points. These points can be expended immediatly or saved for later. If out of combat for more then 30 seconds then these points go away.
 
-		19 - Overwhelming Success - Still need to make the hit. Roll 1d6 and gain that many crit points. These points can be expended immediatly or saved for later. If out of combat for more then 30 seconds then these points go away./
+		19 - Overwhelming Success - Still need to make the hit. Roll 1d6 and gain that many crit points. These points can be expended immediatly or saved for later. If out of combat for more then 30 seconds then these points go away.
+
+		18 - Overwhelming Success - Still need to make the hit. Roll 1d4 and gain that many crit points. These points can be expended immediatly or saved for later. If out of combat for more then 30 seconds then these points go away.
 
 	The crit point table
-		X	Deal X Sunder Damage (Requires Heavy)
+		X	Deal X Sunder Damage
 		2	Move Character 5ft
 		3	Give a Character Stress 
 		4	Blind
 		4	Exhausted state
 		5	Disarm
-		5	Cleave 2 (have to make the attack roll)
+		5	Cleave 2 (have to beat the defence of all characters)
 		6	Ignore armor
 		6	Extra attack
-		7	Cleave 3 (have to make the attack roll)
+		7	Cleave 3 (have to beat the defence of all characters)
 		8	Double damage
 		10	Garrentied extra attack
 
@@ -133,9 +103,9 @@ Criticals
 Characters
 	
 	Fighter level 1
-		As a fighter you have trained in the ability to use your whole body in a fight so you gain the Kick Back maneuver. This is an action that has you roll Dexterity against an opponents reflex or Strength against an opponents Fortitude (your choice). This Kick Back can be Dodged by an opponent.
+		As a fighter you have trained in the ability to use your whole body in a fight so you gain the Kick Back maneuver. This is an action that has you roll Dexterity against an opponents Reflex or Strength against an opponents Fortitude (your choice). This Kick Back can be Dodged by an opponent.
 
-		In addition you have the ability to quickly recover from the strain of battle. At the beginning of the turn  after already handling exhaustion state you can activate your Second Wind. When you do you are unable to be effected by exhaustion this turn and you remove 1 stress.
+		In addition you have the ability to quickly recover from the strain of battle. At the beginning of the turn after already handling exhaustion state you can activate your Second Wind. When you do you are unable to be effected by exhaustion this turn and you remove 1 stress. Recovers after long rest.
 
 	Barbarian Level 1
 		As a barbarian your are fueled by the anger within you and gain the Rage Stance. Not this has Burn 2 (Long) which means that you have 2 uses before you need to perform a long rest to reset it. While in rage stance your light attacks deal +1 damage and your damage bonus on a heavy attack is doubled. Also all physical damage made against you is halved rounded up. This can stack with armor. This stance is unbreakable, and will only end if you decide to end it at the beginning of the turn or if you have not been dealt damage to or attacked for two turns in a row. When this stand does end, you gain +1 stress.
@@ -147,3 +117,42 @@ Characters
 		You are an expert in the art of moving subtly. You now have the Sneak Stance maneuver. When you enter this stance you attempt to gain the Stealthed status from any enemies around you. Flourishes and Move actions do not break this stance. The Move action is at -5 ft. While in this stance your attacks have advantage (they still break the stance). 
 
 		You master the art of hitting enemies where it hurts, you know how to expose a weakness. Whenever you gain advantage on an attack you can choose to forgo the advantage, and gain bonus damage if the attack hits. For light attacks 1d6 for damage, and for heavies gain 1d6 multiplied by your dexterity for damage. The damage dice get larger at higher levels.
+
+
+Fighting Combos
+	Combos are a the next thing a character whould be able to chose from after leveling in a class.
+	Dual Weapon (No Sheilds)
+		Combo 1 - Bezerker Strikes 
+			Light or Heavy Attack --> Opposite Hand Heavy ~~
+
+		Combo 2 - Twin Strike
+			Heavy Attack --> Heavy Attack: Roll 2 attacks one for each weapon, both have +2 to hit.
+
+	Two Handed (No Polarms)
+		Combo 1 - Unstopable Momentum.
+			Light Attack --> light attack: uninteruptable, and will perform counter to any light attack made by the target --> heavy attack: uncounterable
+
+		Combo 2 - Superior Counter
+			Counter --> Heavy Attack
+
+	One Handed (Off hand empty)
+		Combo 1 - Slash and Bash
+			Light or Heavy Attack --> Light Melee Strike: uncounterable, and Disorentate foe on hit --> Heavy Attack ~~
+
+		Combo 2 - Dancing Strike
+			Dodge --> Heavy Attack ~~
+
+	Weapon and Sheild
+		Combo 1 - Spinning Sheild Bash
+			Flourish --> Sheild Bash: No Stress penelty from previous flourish ~~
+
+		Combo 2 - Unreleting Assault
+			Sheild Bash --> Light Weapon Attack: Uninteruptable --> Sheild Bash: Knock Opponent Prone
+
+	Polearms
+		Combo 1 - Shish Kabob Skewer
+			Move (10ft minumum must be in Straight line to enemy) --> 5ft range, Heavy Attack: Move with enemy forward up to 15ft.
+
+		Combo 2 - Sweeping Strikes
+			Heavy Attack --> Light Attack: Cleaves 3 front, Knocks Targets Prone --> Heavy Attack ~~
+
