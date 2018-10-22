@@ -58,15 +58,6 @@ Some Key Words
 
 
         
-Dice System,
-	The game use a d100 system for ability checks and several other dice for dealing damage. In d100 you have a skill listed in a percentage. You add or subtract any modifiers given to your ability check then roll. If you are under or equal to the skill after the modifiers are considered, then the skill check was successful. If you are over then you fail.
-
-	Critical Hits - Currently critical hits are at their most basic phase. There are no critical hits really, but (and this is straight out of the age system) when you roll succesfully and have a pair in your d100 (EX: skill of 60 and rolling a 55, 44, 33 etc...) you get a certain number of stunt points to spend. I do not have a stunt list yet as I am focusing on the primary mechanics of the game. So, right now "criticals" work as follows: if you critical with 55 or higher, you can disarm or move your opponent 5ft. If it is less then 55 then you can only move them 5ft. You may choose move with the opponent here.
-
-	Critical Failure - at the moment there is no crit failures. But a 99 will always fail reguardless of skill.
-
-	Attacks - At the moment all attacks are DEX based to hit and most receive a damage bonus based on strength. You simple roll your dex plus or minus any modifiers
-
 
 	
 
@@ -88,7 +79,6 @@ Criticals
 		2	Move Character 5ft
 		3	Give a Character Stress 
 		4	Blind
-		4	Exhausted state
 		5	Disarm
 		5	Cleave 2 (have to beat the defence of all characters)
 		6	Ignore armor
