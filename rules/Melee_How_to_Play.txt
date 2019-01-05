@@ -120,14 +120,14 @@ Fighting Combos
 
 	Two Handed (No Polarms)
 		Combo 1 - Unstopable Momentum.
-			Light Attack --> light attack: uninteruptable, and will perform counter to any light attack made by the target --> heavy attack: uncounterable
+			Light or Heavy Attack --> light attack: uninteruptable, and will perform counter to any light attack made by the target --> heavy attack: uncounterable
 
 		Combo 2 - Superior Counter
-			Counter --> Heavy Attack
+			Counter --> Heavy Attack ~~
 
 	One Handed (Off hand empty)
-		Combo 1 - Slash and Bash
-			Light or Heavy Attack --> Light Melee Strike: uncounterable, and Disorentate foe on hit --> Heavy Attack ~~
+		Combo 1 - Slash and Grab
+			Light or Heavy Attack, on none grappled target --> Light Weapon Strike, and Grapple foe if successful
 
 		Combo 2 - Dancing Strike
 			Dodge --> Heavy Attack ~~
@@ -144,5 +144,5 @@ Fighting Combos
 			Move (10ft minumum must be in Straight line to enemy) --> 5ft range, Heavy Attack: Move with enemy forward up to 15ft.
 
 		Combo 2 - Sweeping Strikes
-			Heavy Attack --> Light Attack: Cleaves 3 front, Knocks Targets Prone --> Heavy Attack ~~
+			Heavy Attack --> Light Attack: Cleaves 3, Knocks Targets Prone --> Heavy Attack ~~
 
