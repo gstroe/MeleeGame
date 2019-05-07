@@ -144,5 +144,13 @@ Fighting Combos
 			Move (10ft minumum must be in Straight line to enemy) --> 5ft range, Heavy Attack: Move with enemy forward up to 15ft.
 
 		Combo 2 - Sweeping Strikes
-			Heavy Attack --> Light Attack: Cleaves 3, Knocks Targets Prone --> Heavy Attack ~~
+			Heavy Attack --> Light Attack: 5ft range, Cleaves 3, Knocks Targets Prone --> Heavy Attack ~~
 
+
+
+
+Grab - Attempt to grab a character. Roll Dexterity vs their reflex. If success you are now grappled with the character. Both of your movement speeds are set to 0 while you maintain this grapple. Light attacks with small weapons and unarmed use their respective heavy dammage modifier. Using two unarmed hands to Grab adds +3 to the roll your character makes. The grapple can be released at any time.
+
+Shove - Requires grapple on character. Attempt to shove the grappled character. Roll Strength against their Fortitude. If successful force a character to move 5ft (1 space) in any direction.
+
+Takedown - Requires grapple on a character. Roll Strength against their Fortitude. If successful throw a charcter to the ground knocking them prone. This maneuver will also knock you prone but maintain the grapple. This maneuver can be done at disadvantage allowing your character stay standing, the grapple is lost in this case on success.
