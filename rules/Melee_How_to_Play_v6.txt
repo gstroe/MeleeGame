@@ -1,20 +1,23 @@
 Project Melee v6 - Quick Start rules
 
 THE DICE MECHANICS
-The system uses 2d12s as its main dice mechanic. There are no critical hits or critical failures, however rolling two 1s is always a failure, and rolling two 12s is always a succes. To replace criticals, there are two mechanics added: Insperation and Adrenaline. When ever you roll a check of any kind, if one or more of the dice rolled are an 11 or 12, you gain one Insperation point. You can use these points to do the following:
+The system uses 2d12s as its main dice mechanic. There are no critical hits or critical failures, however rolling two 1s is always a failure, and rolling two 12s is always a succes. To replace criticals, there are two mechanics added: Insperation and Adrenaline. These mechanic are describe later.
+
+INSPERATION AND ADRENALINE
+When ever you roll a check of any kind, if one or more of the dice rolled are an 11 or 12, you gain one Insperation point. You can use these points to do the following:
   1p - Reroll any die (This can be done for the roll that the point was gain from)
   1p - You can add a d6 to your roll (must be spent before rolling) - Costs 1p
   2p - Keen Insight, (Requires a success on the roll) your success is so successful that you learn abit more then you would have otherwise, perhaps gain extra information, allow an ally to pass their check automaticly, or automaticly succeeds another roll you may not have even known about. This is up to the GM to determine how to best reward you keen insight in what ever your roll is. 
 Different talents you pickup can add addition abilitys that you can spend Insperation points on and can even modify the rate you get these insperation points. Insperation points last the entire game session, and will reset to zero in the next session.
 Adrenaline works alittle bit differently. While insperation ussally just improves your roll, Adrenaline focuses on modifying your attacks. When you make an attack roll of any kind and you roll atleast one 11 or 12, instead of gaining insperation, you may choose to gain Adrenaline points equal to the value of each individual dice minus 10 from both values. For example rolling an 11 and a 9 will result in 1 Adrenaline point, rolling a 10 and 12 will grant 2 point, and rolling two 12s will grant 4 points. These points will lask until the end of combat and can be used for the following after you roll a successful attack. Generally they can be spend on the same attack they are earned from.
   1p - Push, move the target 5 feet in any direction (Melee Only)
-  2p - Break Armor, this attack oblates the armor of the target by 2 before the damage is applied.
-  2p - Targeted Attack, Pick a physical attribute. This attack applies all of its damage after armor and toughness against that attribute (until it is injured, then it applies at normal)
-  3p - Disarm, removes the targets weapon
-  3p - Disorient, causes the next roll the target takes to have disadvantange,
-  4p - Ignore Armor, Strike at a perfect weak point so the damage ignores both the targets armor and toughness.
-  4p - Cleave 2, this attack hits 2 targets right next to each other using the same roll and damage (assuming that it was greater then both targets guard if they are in guard stance) (Melee Only).
-  4p - Pin, target is pinned to the ground and cannot move. They must take move action for 0 movement to remove the pin effect.
-  4p - Headshot, all damage after armor and toughness must go towards mental attributes until all are injured, then it applies as normal.
-  5p - Critical Strike, this attacks deals double damage before armor and toughness.
+  1p - Break Armor, this attack oblates the armor of the target by 2 before the damage is applied.
+  1p - Targeted Attack, Pick a physical attribute. This attack applies all of its damage after armor and toughness against that attribute (until it is injured, then it applies at normal)
+  2p - Disarm, removes the targets weapon
+  2p - Disorient, causes the next roll the target takes to have disadvantange,
+  3p - Ignore Armor, Strike at a perfect weak point so the damage ignores both the targets armor and toughness.
+  3p - Cleave 2, this attack hits 2 targets right next to each other using the same roll and damage (assuming that it was greater then both targets guard if they are in guard stance) (Melee Only).
+  3p - Pin, target is pinned to the ground and cannot move. They must take move action for 0 movement to remove the pin effect. (Range Only)
+  3p - Headshot, all damage after armor and toughness must go towards mental attributes until all are injured, then it applies as normal.
+  4p - Critical Strike, this attacks deals double damage before armor and toughness.
 Like insperation, certain talents can grant addition abilitys to spend Adrenaline on and even change the way you earn Adrenaline points.
