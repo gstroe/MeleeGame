@@ -1,23 +1,40 @@
 Project Melee v6 - Quick Start rules
 
 THE DICE MECHANICS
-The system uses 2d12s as its main dice mechanic. There are no critical hits or critical failures, however rolling two 1s is always a failure, and rolling two 12s is always a succes. To replace criticals, there are two mechanics added: Insperation and Adrenaline. These mechanic are describe later.
+The system uses 2d12s as its main dice mechanic. There are no critical hits or critical failures, however rolling two 1s is always a failure, and rolling two 12s is always a succes. To replace criticals, there are two mechanics added: Insperation and Adrenaline. These mechanic are describe later. Typicly you will add an attribute to the roll, as well as any relevent skill you may have (you ussually wont have a skill bonus). Some circumstances may also add or subract to your roll, you GM will make it clear when that Occurs. The goal of every roll is to get above (not equal too) a target number. If your above, you succeed. If your at or bellow, you fail. The target number (TN) is typicly set by the GM or by a list Defiance or defense stat on a character sheet.
+
+THE CHARACTER SHEET
+ATTRIBUTES
+the first and most important stats on your chacter sheets are 10 different attributes, 5 mental and 5 physical. these values can be from 1 to 8 naturally (although some items and abilitys can increase this cap). here is a list of them with a short discription.
+  Intuition - Mental, your ablity to process inforamtion instinctively.
+  Charisma - Mental, your ability to interact and effectively communicate to others, also your ability to inspire and leave a good impression on others.
+  Focus - Mental, your ability to tune out unessesary distractions and concentrate on the tasks at hand.
+  Will - Mental, your ability to ignore pain and struggle in the pursuit of a goal.
+  Mind - Mental, your ability to calculate and recall information.
+  Dexterity - Physical, your ability to precisly move parts of your body, especially your upperbody.
+  Strength - Physical, your ability to apply a large ammount of force with your body. Representitive of muscle mass.
+  Endurance - Physical, your ability to maintain a phyiscally tireing task.
+  Body - Physical, your ability to maintain key bodily functions while your body is damaged. This is not a general representation of size, but a representaion of general health.
+  Mobility - Physical, your ablity to move swiftly and at high speedm especially with your lowerbody.
+
+ADVANTAGE AND DISADVANTANGE
+sometimes you can gain asvantage or disadvantange on a roll. whenever this occurs, add extra die equevilant to the largest die rolled. in most cases this will be a d12. after rolling, if you have advantage you remove the lowest value die (of the same type added), if you have disadvantange, you remove the highest value die. things somewhat change when injured and/or exhausted in an attribute, but heres an example iin each case. if uninjured or not exhausted in the stat roll, you will roll 3d12 and then remove the lowest/highest depending on advantage or disadvantange. if you are exhausted or injured in the stat rolled, you will roll 2d12+1d6 and keep 1d12+1d6. if the stat is both injured and exhausted, then you rolled 3d6and keep 2d6.
 
 INSPERATION AND ADRENALINE
-When ever you roll a check of any kind, if one or more of the dice rolled are an 11 or 12, you gain one Insperation point. You can use these points to do the following:
-  1p - Reroll any die (This can be done for the roll that the point was gain from)
-  1p - You can add a d6 to your roll (must be spent before rolling) - Costs 1p
-  2p - Keen Insight, (Requires a success on the roll) your success is so successful that you learn abit more then you would have otherwise, perhaps gain extra information, allow an ally to pass their check automaticly, or automaticly succeeds another roll you may not have even known about. This is up to the GM to determine how to best reward you keen insight in what ever your roll is. 
-Different talents you pickup can add addition abilitys that you can spend Insperation points on and can even modify the rate you get these insperation points. Insperation points last the entire game session, and will reset to zero in the next session.
-Adrenaline works alittle bit differently. While insperation ussally just improves your roll, Adrenaline focuses on modifying your attacks. When you make an attack roll of any kind and you roll atleast one 11 or 12, instead of gaining insperation, you may choose to gain Adrenaline points equal to the value of each individual dice minus 10 from both values. For example rolling an 11 and a 9 will result in 1 Adrenaline point, rolling a 10 and 12 will grant 2 point, and rolling two 12s will grant 4 points. These points will lask until the end of combat and can be used for the following after you roll a successful attack. Generally they can be spend on the same attack they are earned from.
-  1p - Push, move the target 5 feet in any direction (Melee Only)
-  1p - Break Armor, this attack oblates the armor of the target by 2 before the damage is applied.
-  1p - Targeted Attack, Pick a physical attribute. This attack applies all of its damage after armor and toughness against that attribute (until it is injured, then it applies at normal)
-  2p - Disarm, removes the targets weapon
-  2p - Disorient, causes the next roll the target takes to have disadvantange,
-  3p - Ignore Armor, Strike at a perfect weak point so the damage ignores both the targets armor and toughness.
-  3p - Cleave 2, this attack hits 2 targets right next to each other using the same roll and damage (assuming that it was greater then both targets guard if they are in guard stance) (Melee Only).
-  3p - Pin, target is pinned to the ground and cannot move. They must take move action for 0 movement to remove the pin effect. (Range Only)
-  3p - Headshot, all damage after armor and toughness must go towards mental attributes until all are injured, then it applies as normal.
-  4p - Critical Strike, this attacks deals double damage before armor and toughness.
-Like insperation, certain talents can grant addition abilitys to spend Adrenaline on and even change the way you earn Adrenaline points.
+when ever you roll a check of any kind, if one or more of the dice rolled are an 11 or 12, you gain one insperation point. you can use these points to do the following:
+  1p - lucky, reroll any one die (this can be done for the roll that the point was gain from)
+  1p - 110%, you can add a d6 to your roll (must be spent before rolling) - costs 1p
+  2p - keen insight, (requires a success on the roll) your success is so successful that you learn abit more then you would have otherwise, perhaps gain extra information, allow an ally to pass their check automaticly, or automaticly succeeds another roll you may not have even known about. this is up to the gm to determine how to best reward your keen insight. 
+different talents you pickup can add addition abilitys that you can spend insperation points on and can even modify the rate you get these insperation points. insperation points last the entire game session, and will reset to zero in the next session.
+adrenaline works alittle bit differently. while insperation ussally just improves your roll, adrenaline focuses on modifying your attacks. when you make an attack roll of any kind and you roll atleast one 11 or 12, instead of gaining insperation, you may choose to gain adrenaline points equal to the value of each individual dice minus 10 from both values. for example rolling an 11 and a 9 will result in 1 adrenaline point, rolling a 10 and 12 will grant 2 point, and rolling two 12s will grant 4 points. these points will lask until the end of combat and can be used for the following after you roll a successful attack. generally they can be spend on the same attack they are earned from.
+  1p - push, move the target 5 feet in any direction (melee only)
+  1p - break armor, this attack oblates the armor of the target by 2 before the damage is applied.
+  1p - targeted attack, pick a physical attribute. this attack applies all of its damage after armor and toughness against that attribute (until it is injured, then it applies at normal)
+  2p - disarm, removes the targets weapon
+  2p - disorient, causes the next roll the target takes to have disadvantange,
+  2p - ignore armor, strike at a perfect weak point so the damage ignores both the targets armor and toughness (this doees not oblate the armor).
+  3p - cleave 2, this attack hits 2 targets right next to each other using the same roll and damage (assuming that it was greater then both targets guard if they are in guard stance) (melee only).
+  3p - pin, target is pinned to the ground and cannot move. they must take move action for 0 movement to remove the pin effect. (range only)
+  3p - headshot, all damage after armor and toughness must go towards mental attributes until all are injured, then it applies as normal.
+  4p - critical strike, this attacks deals double damage before armor and toughness.
+like insperation, certain talents can grant addition abilitys to spend adrenaline on and even change the way you earn adrenaline points.
