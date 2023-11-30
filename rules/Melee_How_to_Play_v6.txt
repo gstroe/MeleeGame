@@ -8,33 +8,29 @@ ATTRIBUTES
 the first and most important stats on your chacter sheets are 10 different attributes, 5 mental and 5 physical. these values can be from 1 to 8 naturally (although some items and abilitys can increase this cap). They will be used for most of the rolls you make by them selves, but sometimes you can add specials skills discussed later. Here is a list of them with a short discription.
   Intuition - Mental, your ablity to process inforamtion instinctively.
   Charisma - Mental, your ability to interact and effectively communicate to others, also your ability to inspire and leave a good impression on others.
-  Focus - Mental, your ability to tune out unessesary distractions and concentrate on the tasks at hand.
-  Will - Mental, your ability to ignore pain and struggle in the pursuit of a goal.
+  Focus - Mental, your ability to tune out unnessesary distractions and concentrate on the tasks at hand.
   Mind - Mental, your ability to calculate and recall information.
   Dexterity - Physical, your ability to precisly move parts of your body, especially your upperbody.
   Strength - Physical, your ability to apply a large ammount of force with your body. Representitive of muscle mass.
-  Endurance - Physical, your ability to maintain a phyiscally tireing task.
-  Body - Physical, your ability to maintain key bodily functions while your body is damaged. This is not a general representation of size, but a representaion of general health.
+  Endurance - Physical, your ability to maintain a phyiscally tireing task. and keep your body going.
   Mobility - Physical, your ablity to move swiftly and at high speedm especially with your lowerbody.
 
 SKILLS
 Next to each Attributes is a space to write in a few skills. Skills represent a speciliation you may have using a specific attribute. So this can be something like Stealth for Mobility, blades for Dexterity, or Investigation for Focus. Bellow are a short list of some skills you can add to an attribute. This is by no means exhaustive as your GM my add addtional skills relevent to their setting or story. In addition it is possible your a skill to be in multiple attributes (For example your ability to repair something maybe based on your Intuition for your instinctive knowledge or your Mind for your studdied knowledge). Note that for the purpose of increasing skill points, if a skill can be used in multiple attributes, they must be increased individually. Also if a skill has (Specific) next to the word, it means to pick a specific subcatagory for that skill. 
   Intuition - Observation, Hearing, Animal Handling, Repair, Insight.
   Charisma - Charm, Deception, Persuade, Performance(Specific), Inspire.
-  Focus - Investigation, Lockpicking, Crafting(Specific), Survival, First Aid.
-  Will - Resist Pain, Resist Sickness, Resist Charm, Resist Hunger, Resist Exhaustion.
+  Focus - Investigation, Lockpicking, Crafting(Specific), Survival, First Aid, Resist(Specific)
   Mind - Science(Specific), Magic(Specific), Medicine, Language(Specific), History, Religion, Occult.
   Dexterity - Weapon Fighting(Specific), Martial Arts, Slight of Hand.
   Strength - Brawling, Lifting, Climbing, Intimidation.
-  Endurance - Carry, Swimming, Marathon
-  Body - Resist Posion, Tempataion, Recover.
+  Endurance - Carry, Swimming, Marathon, Resist Posion, 
   Mobility - Dodge, Run, Acrobatics.
 
 DEFIANCES
 The next stats are Defiances. 
 
 ADVANTAGE AND DISADVANTANGE
-sometimes you can gain asvantage or disadvantange on a roll. whenever this occurs, add extra die equevilant to the largest die rolled. in most cases this will be a d12. after rolling, if you have advantage you remove the lowest value die (of the same type added), if you have disadvantange, you remove the highest value die. things somewhat change when injured and/or exhausted in an attribute, but heres an example iin each case. if uninjured or not exhausted in the stat roll, you will roll 3d12 and then remove the lowest/highest depending on advantage or disadvantange. if you are exhausted or injured in the stat rolled, you will roll 2d12+1d6 and keep 1d12+1d6. if the stat is both injured and exhausted, then you rolled 3d6and keep 2d6.
+sometimes you can gain advantage or disadvantange on a roll. whenever this occurs, add extra die equevilant to the largest die rolled. in most cases this will be a d12. after rolling, if you have advantage you remove the lowest value die (of the same type added), if you have disadvantange, you remove the highest value die. things somewhat change when injured and/or exhausted in an attribute, but heres an example iin each case. if uninjured or not exhausted in the stat roll, you will roll 3d12 and then remove the lowest/highest depending on advantage or disadvantange. if you are exhausted or injured in the stat rolled, you will roll 2d12+1d6 and keep 1d12+1d6. if the stat is both injured and exhausted, then you rolled 3d6and keep 2d6.
 
 INSPERATION AND ADRENALINE
 when ever you roll a check of any kind, if one or more of the dice rolled are an 11 or 12, you gain one insperation point. you can use these points to do the following:
