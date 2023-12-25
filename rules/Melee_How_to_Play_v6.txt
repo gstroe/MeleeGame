@@ -6,7 +6,7 @@ The system uses 2d12s as its main dice mechanic. There are no critical hits or c
 THE CHARACTER SHEET
 ATTRIBUTES
 the first and most important stats on your chacter sheets are 10 different attributes, 5 mental and 5 physical. these values can be from 1 to 8 naturally (although some items and abilitys can increase this cap). They will be used for most of the rolls you make by them selves, but sometimes you can add specials skills discussed later. Here is a list of them with a short discription.
-  Intuition - Mental, your ablity to process inforamtion instinctively.
+  Intuition - Mental, your ablity to process idnforamtion instinctively.
   Charisma - Mental, your ability to interact and effectively communicate to others, also your ability to inspire and leave a good impression on others.
   Focus - Mental, your ability to tune out unnessesary distractions and concentrate on the tasks at hand.
   Mind - Mental, your ability to calculate and recall information.
