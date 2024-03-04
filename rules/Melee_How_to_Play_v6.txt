@@ -1,7 +1,7 @@
 Project Melee v6 - Quick Start rules
 
 THE DICE MECHANICS
-The system uses 2d12s as its main dice mechanic. There are no critical hits or critical failures, however rolling two 1s is always a failure, and rolling two 12s is always a succes. To replace criticals, there are two mechanics added: Insperation and Adrenaline. These mechanic are describe later. Typicly you will add an attribute to the roll, as well as any relevent skill you may have (you ussually wont have a skill bonus). Some circumstances may also add or subract to your roll, you GM will make it clear when that Occurs. The goal of every roll is to get above (not equal too) a target number. If your above, you succeed. If your at or bellow, you fail. The target number (TN) is typicly set by the GM or by a list Defiance or defense stat on a character sheet.
+The system uses 2d12s as its main dice mechanic. There are no critical hits or critical failures. There are two mechanics added: Insperation and Adrenaline. These mechanic are describe later. Typicly you will add an attribute to the roll, as well as any relevent skill you may have (you ussually wont have a skill bonus). Some circumstances may also add or subract to your roll, you GM will make it clear when that Occurs. The goal of every roll is to get above (not equal too) a target number. If your above, you succeed. If your at or bellow, you fail. The target number (TN) is typicly set by the GM or by a list Defiance or defense stat on a character sheet.
 
 THE CHARACTER SHEET
 ATTRIBUTES
